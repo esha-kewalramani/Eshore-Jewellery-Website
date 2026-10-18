@@ -1,48 +1,68 @@
-# ESHORE' — Jewellery & Beyond
 
-Timeless beauty, trendy looks. A glassmorphism React e-commerce storefront for local delivery across Sindh.
-12 categories · 60 products · every price between Rs. 500 and Rs. 1000.
+# ✨ ESHORE' Jewellery & Beyond 💎
 
-## Run it
+### Timeless Beauty. Everyday Elegance.
 
-```bash
-npm install
-npm run dev        # http://localhost:5173
-npm run build      # production build in /dist
-npm run preview
-```
+ESHORE' Jewellery & Beyond is an online jewellery shopping website that brings together elegance, style, and traditional beauty. The website showcases a variety of jewellery pieces through a warm, luxurious design inspired by golden tones and sophisticated aesthetics.
 
-Requires Node 18+.
+## 💍 About the Website
 
-## What's inside
+The project is designed to provide customers with an attractive and convenient way to explore jewellery collections. Its elegant interface, organized product categories, and detailed product previews create a smooth and visually appealing shopping experience.
 
-- **Animated logo intro** (≈5.6 s, with a Skip button): symbol glow → golden line traces the arch → light sweep → brand name → tagline → the site fades in.
-- **Glassmorphism** UI: frosted navbar, cards, filters, cart drawer, toasts over soft animated gold backdrops.
-- **Pages:** Home, Shop (filters by category / price / finish / style, sorting, pagination, search, wishlist view), Categories, Our Story, Contact + FAQ.
-- **Cart & checkout:** saved in the browser, Cash on Delivery, order is sent to your WhatsApp as a formatted message. Delivery Rs. 150, free above Rs. 2,000.
+With its champagne-inspired colour palette, refined typography, and beautiful jewellery imagery, ESHORE' reflects a blend of modern fashion and timeless elegance.
 
-## Make it yours
+## 🌸 Jewellery Categories
 
-| What | Where |
-| --- | --- |
-| Products, prices, categories | `src/data/products.js` |
-| **Your WhatsApp number** (for orders) | `WHATSAPP_NUMBER` in `src/data/products.js` (e.g. `923001234567`) |
-| Delivery cities | `cities` in `src/data/products.js` |
-| Delivery fee / free-delivery threshold | top of `src/components/CartDrawer.jsx` |
-| Colours & fonts | CSS variables at the top of `src/styles.css` |
-| Intro length | `TOTAL` in `src/components/IntroAnimation.jsx` |
-| Contact details, FAQs, story text | `src/pages/Contact.jsx`, `src/pages/Story.jsx` |
+The website features the following jewellery collections:
 
-### Using real product photos
+- Earrings
+- Necklaces
+- Bracelets
+- Rings
+- Anklets
+- Watches
+- Pendants
+- Chains
+- Nose Pins
+- Bangles
+- Jewellery Sets
+- Hair Accessories
 
-Put images in `public/images/` and add an `image` field to a product:
+Each category showcases jewellery styles suited to different tastes, occasions, and fashion preferences.
 
-```js
-{ ..., image: "/images/gold-hoops.jpg" }
-```
+## ✨ Key Features
 
-Products without an `image` show a built-in gold illustration, so the shop works out of the box.
+- **Elegant Homepage:** A stylish hero section featuring a jewellery model and a highlighted jewellery card.
+- **Product Catalogue:** An organized collection of jewellery across multiple categories.
+- **Product Details:** Product names, prices, styles, and images presented in a clean layout.
+- **Product Image Viewer:** An enlarged image preview for viewing jewellery in greater detail.
+- **Shopping Cart:** A convenient way to review selected products.
+- **Wishlist:** A dedicated feature for favourite products.
+- **Search and Filtering:** Tools for exploring and finding jewellery.
+- **Responsive Interface:** A design intended to provide a consistent experience across different screen sizes.
+- **Sindh-Focused Branding:** A local delivery theme highlighting service across Sindh.
 
-## Deploy
+## 🎨 Design & Visual Identity
 
-Run `npm run build` and upload `dist/` to Netlify, Vercel or any static host. Because the site uses client-side routing, add a rewrite so all paths serve `index.html` (Netlify: a `_redirects` file with `/* /index.html 200`).
+ESHORE' features a premium visual identity built around:
+
+- Champagne, beige, cream, and gold tones
+- Elegant typography and refined layouts
+- Rounded product cards and soft visual details
+- Jewellery-focused photography
+- A clean and sophisticated navigation bar
+- A balanced combination of traditional charm and contemporary style
+
+The overall design aims to make browsing jewellery feel elegant, welcoming, and effortless.
+
+## 💛 Project Vision
+
+ESHORE' Jewellery & Beyond celebrates jewellery as an expression of individuality, confidence, culture, and personal style. The project aims to present beautiful jewellery in an accessible online shopping environment where customers can explore different collections and discover pieces that complement their unique look.
+
+---
+
+<p align="center">
+  <strong>ESHORE' Jewellery & Beyond</strong>
+  <br>
+  <em>Where Every Detail Shines.</em>
+</p>
